@@ -1,0 +1,70 @@
+
+body{
+    background-color: blueviolet;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.container-login h1{
+    text-align: center;
+
+} 
+
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    height: 50px;
+    font-size: 40px;
+    color: black;
+    border-bottom: 4px solid gold;
+   text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 50px;
+      
+}
+
+.container{
+      max-width: 400px;
+      padding: 0%;
+
+}
+
+.container h3{
+    text-align: left;
+}
+
+.form-floating{
+    margin-top: 50px;
+
+}
+
+
+#balance{
+    max-width: 400px;
+    color:black;
+    background-color: white;
+    height: min-content;
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+    border-radius: 2%;
+    
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: gold;
+    text-align: right;
+    height: 30px;
+    
+}

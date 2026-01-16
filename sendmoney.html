@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet-send</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Transferir</h2>
+        
+        <form>
+            <div class="form-group">
+                <label for="searchContact"><h6>¿ A quien le deseas transferir ?</h6></label>
+                <input type="text" class="form-control" id="searchContact" placeholder="Buscar por nombres, alias o RUT">
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary" value="buscar">Buscar</button>
+            <button type="button" class="btn btn-primary">Agregar nuevo contacto</button>
+            <button type="button" class="btn btn-primary">Guardados</button>
+            <button type="button" class="btn btn-primary">Del celular</button>
+            <br>
+            <br>
+            <h3>Contactos</h3>
+            <ul id="contactlist" class="list-group">
+
+                <li class="list-group-item">
+                    <div class="contact-info">
+                        <span class="contact-name">Alex Nuñez, Profe;</span>
+                        <span class="contact-details">BancoEstado, Cuenta 16263502</span>
+                    </div>
+                </li>
+
+               <li class="list-group-item">
+                   <div class="contact-info">
+                       <span class="contact-name">Camila Diaz, Cami;</span>
+                       <span class="contact-details">Banco de Credito E Inversiones, Chequera Electrónica 43675497</span>
+                    </div>
+                </li>
+
+                <li class="list-group-item">
+                    <div class="contact-info">
+                         <span class="contact-name">Carmen Gloria, Carmen Gloria;</span>
+                         <span class="contact-details">BancoEstado, Cuenta 12478719</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="contact-info">
+                         <span class="contact-name">Cesar Antonio Muñoz Zamora, Cesar;</span>
+                         <span class="contact-details">Banco Santander-Chile, Cuenta Corriente 67855821</span>
+                    </div>
+                </li>
+    </ul>
+    <br>
+     <div class="form-group">
+                <label for="depositAmount">Monto a transferir</label>
+               <input type="number" class="form-group" id="depositAmount" placeholder="Ingrese monto en pesos">
+            </div>
+    <br>
+     <button type="submit" class="btn btn-primary">Transferir</button>
+        </form>
+
+        
+    
+</body>
+</html>
