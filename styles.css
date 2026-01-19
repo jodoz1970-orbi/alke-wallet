@@ -1,3 +1,4 @@
+/* Estilos generales */
 
 body{
     background-color: blueviolet;
@@ -7,16 +8,15 @@ body{
     font-weight: bold;
     font-style: normal;
 
-}
-
-.container-login h1{
-    text-align: center;
-
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
 } 
 
+/* Estilos del header */
 
-header h1{
-    font-family: Arial, Helvetica, sans-serif;
+h1{
+    font-family: 'Courier New', Courier, monospace;
     background-color: aquamarine;
     height: 50px;
     font-size: 40px;
@@ -25,25 +25,52 @@ header h1{
    text-align: center;
     font-weight: bold;
     font-style: normal;
-    line-height: 50px;
-      
+    line-height: 50px;      
 }
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#monto{
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+#btnDepositar{
+    margin-top: 50px;
+}
+
+
+/*eslilos de la clase */
 
 .container{
       max-width: 400px;
       padding: 0%;
+        margin: auto;
+}
 
+.container-login h1{
+    text-align: center;
 }
 
 .container h3{
     text-align: left;
 }
 
+.col-md-6{
+   max-width: 400px; 
+    margin: auto; 
+}
+   
 .form-floating{
     margin-top: 50px;
-
 }
 
+
+/* Estilos del id */
 
 #balance{
     max-width: 400px;
@@ -53,11 +80,25 @@ header h1{
     width: 65%;
     text-align: center;
     margin: auto;
-    padding: 5%;
+    padding: 10%;
     border-radius: 2%;
     
 }
 
+#imagen{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;    
+}
+
+#btn-link{
+    margin-top: 500px;
+    color: white; 
+    align-items: flex-end;  
+}
+
+
+/* Estilos del footer */
 
 footer{
     position: absolute;
@@ -65,6 +106,5 @@ footer{
     width: 100%;
     background-color: gold;
     text-align: right;
-    height: 30px;
-    
+    height: 30px;    
 }
